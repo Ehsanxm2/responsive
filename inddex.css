@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(./image/Jowhareh_galleries_poster_edb4e75d-9fe3-457f-a6a6-bef6cbc8bf95.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 80%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px black;
+}
+
+.form-container h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.form-control label{
+    color: white;
+}
+
+.form-control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+.remember{
+    color: white;
+}
+
+.form-control input[type="submit"]{
+    background-color: rgb(51, 45, 230);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: opacity 1s ease;
+}
+
+.form-control input[type="submit"]:hover{
+    opacity: 2;
+    cursor: pointer;
+}
+
+.signin{
+    text-align: center;
+}
+
+.signin a{
+    text-decoration: none;
+    color:white
+}
+
+
+
+
+
+
+
+@media (min-width:320px) {
+    .form-container{
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) {
+    .form-container{
+        width: 100%;
+    }
+}
+
+@media (min-width:641px) {
+    .form-container{
+        width: 60%;
+    }
+}
+
+@media (min-width:961px) {
+    .form-container{
+        width: 60%;
+    }
+}
+
+@media (min-width:1025px) {
+    .form-container{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+nav{
+    float: left;
+}
+
+nav>ul>li{
+    list-style: none;
+    float: left;
+}
+
+nav>ul>li:first-of-type{
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+nav>ul>li>ul>li{
+    background-color: black;
+    padding: 0 20px;
+}
+
+nav>ul>li>ul{
+    display: none;
+}
+
+nav>ul>li:hover>ul{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    line-height: 98px;
+}
+
+nav>ul>li:not(:last-of-type){
+    margin-right: 30px;
+}
+
+.content{
+    float:right;
+    color: white;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+.parent{
+    background-color: rgb(34, 25, 106);
+    /* opacity: 0.5; */
+    height: 100px;
+    text-transform: capitalize;
+}
+
+@media (min-width:320px) {
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) {
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width:641px) {
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width:961px) {
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width:1025px) {
+    .parent{
+        width: 100%;
+    }
+}
